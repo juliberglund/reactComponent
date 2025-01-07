@@ -2,6 +2,7 @@ import { Alerts } from "./components/Alert";
 import { BadageComponent } from "./components/badage";
 import { ButtonComponent } from "./components/buttonComponent";
 import { CardsComponent } from "./components/cardsComponent";
+import { ModalComponent } from "./components/modalComponent";
 import "flowbite";
 
 import "./App.css";
@@ -21,6 +22,7 @@ function App() {
         imgSrc="/images/MinnesStund.png"
         imgAlt="bild på Andres minnesstund och på honom när han badar."
       />
+      <ModalComponent />
     </>
   );
 }
